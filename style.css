@@ -1,0 +1,61 @@
+.layoutcontainer{
+    display:flex;
+    flex-direction: column;
+}
+.flx-header{
+    flex-direction:column;
+    padding: 30px;
+    background-color: rgb(65, 77, 77);
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    }
+    #git{
+        text-align: center;
+    }
+#image{
+    text-align:left;
+    margin: 0px;
+    padding-left: 0px;
+}
+.flex-main-container{
+    display:flex;
+    flex:1;
+}
+.flx-nav{
+ 
+    flex-direction:column;
+    padding: 30px;
+    background-color:rgb(174, 199, 174) ;
+    text-align: center;
+}
+ #text{
+    margin-top: 20px;
+    padding-top:20px;
+    border-radius:20px;
+    background-color: rgb(65, 77, 77);
+} 
+
+.flx-article-section{
+    flex-direction: row;
+    flex:1;
+    /* text-align: center; */
+    background-color: rgb(174, 199, 174);
+    padding:10px;
+}
+
+#text-1{
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 100px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(65, 77, 77);
+}
+#text-2{
+    margin-top: 50px;
+    margin-left: 200px; 
+    border-radius: 10px;
+    background-color: rgb(65, 77, 77);
+ }
+
